@@ -37,7 +37,7 @@ function draw() {
   Engine.update(engine);
 
   push();
-  fill("brown");
+  fill("red");
   rectMode(CENTER);
   rect(ground.position.x, ground.position.y, width * 2, 1);
   pop();
